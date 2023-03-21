@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { fakeListings } from '../fake-data';
 import { ListingsService } from '../listings.service';
 import { Listing } from '../types';
 

@@ -5,3 +5,9 @@ export interface Listing {
     price: number,
     views?: number
 }
+
+export interface NewListingForm {
+    name: string;
+    description: string;
+    price: number;
+}
